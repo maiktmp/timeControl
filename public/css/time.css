@@ -1,0 +1,360 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+/*********************************************/
+/* Footer "Always bottom of page" */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+
+    /** Footer height plus 24 px */
+    padding-bottom: 56px;
+}
+
+.footer {
+    font-size: .93rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    background: #2A2A2A;
+    color: #E0E0E0;
+
+    height: 40px;
+    padding: 16px 16px;
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*********************************************/
+/* Global helpers */
+
+a:hover {
+    text-decoration: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*********************************************/
+/* Dashes */
+
+.dash-md {
+    height: 4px;
+    margin: auto;
+    width: 160px;
+}
+
+/*********************************************/
+/* Forms */
+
+.custom-file {
+    overflow: hidden;
+}
+
+.custom-file-label {
+    white-space: nowrap;
+}
+
+.image-preview-wrapper {
+    overflow-x: hidden;
+}
+
+/*********************************************/
+/* Tags */
+
+.tag {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 4px 8px;
+}
+
+/*********************************************/
+/* Color palette */
+
+.bg-blue-ocean {
+    background: #40739e;
+}
+
+.bg-magenta {
+    background: #5e72e4;
+}
+
+.color-blue-dark {
+    color: #172b4d;
+}
+
+.color-magenta {
+    color: #5e72e4;
+}
+
+.color-blue-ocean {
+    color: blue;
+}
+
+.color-red {
+    color: #e84118;
+}
+
+/*********************************************/
+/* Cards */
+.card-header{
+    background-color: #131313;
+    color: white;
+    font-weight: bold;
+}
+/*********************************************/
+/* Bootstrap buttons */
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #f59f14;
+    border-color: #f59f14;
+}
+
+.btn-primary:active {
+    color: black !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    background-color: #f5b900 !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #f5b900;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+/*.btn {*/
+/*border: 1px solid transparent;*/
+/*border-radius: .25rem;*/
+/*font-size: .875rem;*/
+/*font-weight: 600;*/
+/*line-height: 1.5;*/
+/*position: relative;*/
+/*transition: all .15s ease;*/
+/*letter-spacing: .025em;*/
+/*padding: .625rem 1.25rem;*/
+/*-webkit-user-select: none;*/
+/*-moz-user-select: none;*/
+/*-ms-user-select: none;*/
+/*user-select: none;*/
+/*text-transform: uppercase;*/
+/*will-change: transform;*/
+/*vertical-align: middle;*/
+/*}*/
+
+/*.btn:hover {*/
+/*transform: translateY(-1px);*/
+/*box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);*/
+/*}*/
+
+/*.btn-primary,*/
+/*.btn-primary:hover,*/
+/*.btn-primary:active {*/
+/*color: #fff;*/
+/*border-color: #5e72e4;*/
+/*background-color: #5e72e4;*/
+/*box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);*/
+/*}*/
+
+.btn-success,
+.btn-success:hover,
+.btn-success:active {
+    color: #fff;
+    border-color: #2dce89;
+    background-color: #2dce89;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+/************************************/
+/** Backgrounds                     */
+
+.background-cover-center {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-cover-center-bottom {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.footer {
+    font-size: .93rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    /** 66 pixels as total height */
+    height: 56px;
+    /*padding: 8px 16px;*/
+}
+
+/*********************************************/
+/* Global helpers */
+
+a:hover {
+    text-decoration: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*********************************************/
+/* Dashes */
+
+.dash-md {
+    height: 4px;
+    margin: auto;
+    width: 160px;
+}
+
+/*********************************************/
+/* Forms */
+
+.custom-file {
+    overflow: hidden;
+}
+
+.custom-file-label {
+    white-space: nowrap;
+}
+
+.image-preview-wrapper {
+    overflow-x: hidden;
+}
+
+/*********************************************/
+/* Tags */
+
+.tag {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 4px 8px;
+}
+
+/*********************************************/
+/* Color palette */
+
+.bg-blue-ocean {
+    background: #40739e;
+}
+
+.bg-magenta {
+    background: #5e72e4;
+}
+
+.color-blue-dark {
+    color: #172b4d;
+}
+
+.color-red {
+    color: #e84118;
+}
+
+.color-orange {
+    color: #f5b900;
+
+}
+
+/*
+Calendar
+*/
+
+
+/*********************************************/
+/* Navbar */
+
+.navbar-dark {
+    background-color: #131313;
+    margin-bottom: 0px;
+}
+
+.navbar-dark .navbar-nav > .nav-item > .nav-link {
+    color: #ffffff;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+/************************************/
+/** Backgrounds                     */
+
+.background-cover-center {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-cover-center-bottom {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/************************************/
+/** CKEditor                        */
+
+.ck-editor__editable {
+    min-height: 200px;
+    height: 250px;
+}
+
+/************************************/
+/** Calendar */
+
+.dtp > .dtp-content > .dtp-date-view > header.dtp-header {
+    background: #f5b900 !important;
+    color: #fff;
+    text-align: center;
+    padding: 0.3em;
+}
+
+.dtp div.dtp-date, .dtp div.dtp-time {
+    background: #f5b900 !important;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.dtp table.dtp-picker-days tr > td > a.selected {
+    background: #f5b900 !important;
+    color: #fff;
+}
+
+.dtp .p10 > a {
+    color: #f5b900 !important;
+    text-decoration: none;
+}
+
+.dtp .dtp-actual-meridien a.selected {
+    background: #f5b900 !important;
+    color: #fff;
+}
